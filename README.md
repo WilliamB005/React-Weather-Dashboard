@@ -4,17 +4,17 @@ A responsive, multi-component React application built with Vite that fetches and
 
 ## Features
 
-* **Multi-Component Architecture:** Decomposed into focused, reusable components (`SearchBar`, `WeatherCard`, `LoadingSpinner`, and `ErrorMessage`).
-* **State Management:** Utilizes React's `useState` hook for managing search queries, active locations, weather data, loading status, and error states.
-* **Side Effects & Data Fetching:** Implements `useEffect` with proper dependency arrays to fetch geocoding and live meteorological data asynchronously[cite: 1, 2].
-* **Conditional Rendering:** Dynamically switches between loading, error, and success views depending on API response states.
-* **Responsive UI:** Styled for seamless usage across desktop and mobile screen sizes[cite: 2].
+- **Multi-Component Architecture:** Decomposed into focused, reusable components (`SearchBar`, `WeatherCard`, `LoadingSpinner`, and `ErrorMessage`).
+- **State Management:** Utilizes React's `useState` hook for managing search queries, active locations, weather data, loading status, and error states.
+- **Side Effects & Data Fetching:** Implements `useEffect` with proper dependency arrays to fetch geocoding and live meteorological data asynchronously.
+- **Conditional Rendering:** Dynamically switches between loading, error, and success views depending on API response states.
+- **Responsive UI:** Styled for seamless usage across desktop and mobile screen sizes.
 
 ## Tech Stack
 
-* **React** (Functional components and hooks)[cite: 1]
-* **Vite**[cite: 1]
-* **Open-Meteo API** (Geocoding & Weather Forecast APIs)
+- **React** (Functional components and hooks)
+- **Vite**
+- **Open-Meteo API** (Geocoding & Weather Forecast APIs)
 
 ## Project Structure
 
